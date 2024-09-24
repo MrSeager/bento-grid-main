@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bento-grid-main/static/css/main.c0a1f8db.css",
-    "main.js": "/bento-grid-main/static/js/main.b63ca2f9.js",
+    "main.js": "/bento-grid-main/static/js/main.5ad119f9.js",
     "static/js/453.2686eca9.chunk.js": "/bento-grid-main/static/js/453.2686eca9.chunk.js",
     "static/media/illustration-multiple-platforms.webp": "/bento-grid-main/static/media/illustration-multiple-platforms.f6552bb44570eee14f76.webp",
     "static/media/illustration-ai-content.webp": "/bento-grid-main/static/media/illustration-ai-content.43adae35ee24162c7370.webp",
@@ -13,11 +13,11 @@
     "static/media/illustration-five-stars.webp": "/bento-grid-main/static/media/illustration-five-stars.a9c251f585baa32bb30d.webp",
     "index.html": "/bento-grid-main/index.html",
     "main.c0a1f8db.css.map": "/bento-grid-main/static/css/main.c0a1f8db.css.map",
-    "main.b63ca2f9.js.map": "/bento-grid-main/static/js/main.b63ca2f9.js.map",
+    "main.5ad119f9.js.map": "/bento-grid-main/static/js/main.5ad119f9.js.map",
     "453.2686eca9.chunk.js.map": "/bento-grid-main/static/js/453.2686eca9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0a1f8db.css",
-    "static/js/main.b63ca2f9.js"
+    "static/js/main.5ad119f9.js"
   ]
 }
