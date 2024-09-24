@@ -19,9 +19,7 @@ import Img_7 from '../assets/images/illustration-create-post.webp';
 import Img_8 from '../assets/images/illustration-ai-content.webp';
 
 const Main: FC = () => {
-    AOS.init({
-        disable: 'mobile',
-    });
+    AOS.init();
 
     return (
         <Container fluid className='max-vh-100 cs-bg py-5 px-lg-5 px-0'>
