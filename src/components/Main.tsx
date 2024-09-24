@@ -20,7 +20,7 @@ import Img_8 from '../assets/images/illustration-ai-content.webp';
 
 const Main: FC = () => {
     AOS.init({
-        mobile: false
+        disable: 'mobile',
     });
 
     return (
@@ -59,14 +59,14 @@ const Main: FC = () => {
                     </Col>
                     <Col as={Row} xs={{span: 12, order: 2}} className='m-0 p-0'>
                         <Col lg={4} xs={12} className='m-0 p-3'>
-                            <Container data-aos="fade-up" className='p-3 w-100 h-100 bg-white rounded rounded-4 d-flex flex-column align-items-center justify-content-center'>
+                            <Container data-aos="fade-up" data-aos-delay="100" className='p-3 w-100 h-100 bg-white rounded rounded-4 d-flex flex-column align-items-center justify-content-center'>
                                 <h2 className='display-2 cs-fw-500 w-100 mb-0'>&gt;56%</h2>
                                 <p className='w-100 cs-fw-500 text-center fs-4 lh-1'>faster audience growth</p>
                                 <Image fluid src={Img_6} alt='audience growth' className='mt-3 px-4' />
                             </Container>
                         </Col>
                         <Col lg={8} xs={12} className='m-0 p-3'>
-                            <Container data-aos="fade-left" className='p-4 w-100 h-100 cs-bg-purple rounded rounded-4 d-flex flex-lg-row flex-column align-items-center justify-content-around'>
+                            <Container data-aos="fade-left" data-aos-delay="200" className='p-4 w-100 h-100 cs-bg-purple rounded rounded-4 d-flex flex-lg-row flex-column align-items-center justify-content-around'>
                                 <Image fluid src={Img_5} alt='grow followers' className='cs-w' />
                                 <h2 className='text-white cs-fw-500 cs-letter-spacing-2 display-5 w-50 lh-1 text-center text-lg-start'>Grow followers with non-stop content.</h2>
                             </Container>
